@@ -1,6 +1,6 @@
-🐶 Adoptable Dog Listing Scraper
+🐶 Adoptable Dog Listing Scraper & Analysis
 
-This project is a web scraper that extracts available dog listings from a local adoption site for data analysis. It gathers each dog's name, breed, and gender, saving the information in a structured format for further analysis.
+This project scrapes dog adoption listings from a local shelter and performs data analysis to identify adoption trends, including breed distribution and gender breakdown.
 
 🚀 Features
 
@@ -8,36 +8,18 @@ This project is a web scraper that extracts available dog listings from a local 
   Removes unnecessary prefixes (e.g., "Dog - " from breed names)
   Saves data as a CSV file for easy analysis
 
+📊 Key Insights from the Analysis
 
-🛠️ Technologies Used
-
-  Helium (built on Selenium) for browser automation
-  BeautifulSoup for HTML parsing
-  Pandas for data structuring and storage
-
-📌 Setup Instructions
-
-  Install dependencies (if not already installed):
-
-  pip install helium beautifulsoup4 pandas
-
-Run the script:
-
-  python scraper.py
-
-  The scraped data will be saved as dog_listings_cleaned.csv.
-
-📊 Example Output
-Name	Breed	Gender
-Esther	Boxer / American Pit Bull Terrier	Female
-Max	Labrador Retriever Mix	Male
-Bella	Golden Retriever	Female
+  Most common breeds available for adoption
+  Gender distribution of available dogs
+  Number of available boxer and German shepherd dogs 
 
 📜 License
 
 This project is open-source under the MIT License.
 
-
+![dog_adoption_top5](https://github.com/user-attachments/assets/2fa8668b-2d11-44ea-8593-ef282298fe27)
+![dog_adoption_genderpie](https://github.com/user-attachments/assets/4fab6651-735d-4cbb-b5df-08b71e5c5561)
 ![dog_adoption_gsd](https://github.com/user-attachments/assets/f3565c5e-3a37-486e-a951-80f8ed5d7b0c)
 ![dog_adoption_gender](https://github.com/user-attachments/assets/6a1d0585-f24d-41ae-a33c-d6d8ec89f285)
 ![dog_adoption_boxer](https://github.com/user-attachments/assets/fc2c2722-0f03-486d-94aa-c5575cd0d325)
