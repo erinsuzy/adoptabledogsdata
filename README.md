@@ -18,6 +18,8 @@ This project scrapes dog adoption listings from a local shelter and performs dat
 
 This project is open-source under the MIT License.
 
+https://public.tableau.com/views/NeedyPawsAnalytics/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 ![dog_adoption_top5](https://github.com/user-attachments/assets/2fa8668b-2d11-44ea-8593-ef282298fe27)
 ![dog_adoption_genderpie](https://github.com/user-attachments/assets/4fab6651-735d-4cbb-b5df-08b71e5c5561)
 ![dog_adoption_gsd](https://github.com/user-attachments/assets/f3565c5e-3a37-486e-a951-80f8ed5d7b0c)
